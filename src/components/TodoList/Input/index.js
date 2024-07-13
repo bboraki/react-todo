@@ -30,7 +30,7 @@ function Input({ addTodo, todos }) {
 
     return (
         <header className="header">
-            <h1>todos</h1>
+            <h1>Todo List</h1>
             <form onSubmit={submitFunc}>
                 <div>
                     <input className="new-todo"
